@@ -51,8 +51,9 @@
     <keyboard-layout android:label="@string/keyboard_layout_hausa" android:name="keyboard_layout_hausa" android:keyboardLayout="@raw/keyboard_layout_hausa"/>
     <keyboard-layout android:label="@string/keyboard_layout_hawaiian" android:name="keyboard_layout_hawaiian" android:keyboardLayout="@raw/keyboard_layout_hawaiian"/>
     <keyboard-layout android:label="@string/keyboard_layout_hebrew_standard" android:name="keyboard_layout_hebrew_standard" android:keyboardLayout="@raw/keyboard_layout_hebrew_standard"/>
-    <keyboard-layout android:label="@string/keyboard_layout_hindi_traditional" android:name="keyboard_layout_hindi_traditional" android:keyboardLayout="@raw/keyboard_layout_hindi_traditional"/>
+    <keyboard-layout android:label="@string/keyboard_layout_hindi_traditional" android:name="keyboard_layout_hindi_traditional" android:keyboardLayout="@raw/keyboard_layout_hindi_traditional"/>    
     <keyboard-layout android:label="@string/keyboard_layout_hungarian_101_key_qwerty" android:name="keyboard_layout_hungarian_101_key_qwerty" android:keyboardLayout="@raw/keyboard_layout_hungarian_101_key_qwerty"/>
+    <keyboard-layout android:label="@string/keyboard_layout_hungarian_qwertz" android:name="keyboard_layout_hungarian_qwertz" android:keyboardLayout="@raw/keyboard_layout_hungarian_qwertz"/>
     <keyboard-layout android:label="@string/keyboard_layout_inuktitut_latin" android:name="keyboard_layout_inuktitut_latin" android:keyboardLayout="@raw/keyboard_layout_inuktitut_latin"/>
     <keyboard-layout android:label="@string/keyboard_layout_irish" android:name="keyboard_layout_irish" android:keyboardLayout="@raw/keyboard_layout_irish"/>
     <keyboard-layout android:label="@string/keyboard_layout_italian_142" android:name="keyboard_layout_italian_142" android:keyboardLayout="@raw/keyboard_layout_italian_142"/>

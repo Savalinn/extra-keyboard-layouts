@@ -52,6 +52,7 @@
 	<string name="keyboard_layout_hebrew_standard">Hebrew (Standard)</string>
 	<string name="keyboard_layout_hindi_traditional">Hindi Traditional INSCRIPT</string>
 	<string name="keyboard_layout_hungarian_101_key_qwerty">Hungarian 101-key QWERTY</string>
+	<string name="keyboard_layout_hungarian_qwertz">Hungarian QWERTZ</string>
 	<string name="keyboard_layout_inuktitut_latin">Inuktitut - Latin</string>
 	<string name="keyboard_layout_irish">Irish</string>
 	<string name="keyboard_layout_italian_142">Italian (142)</string>

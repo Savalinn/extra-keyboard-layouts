@@ -1,0 +1,463 @@
+# License: MIT
+
+# Hungarian QWERTZ
+type OVERLAY
+
+map key 2 1
+map key 3 2
+map key 4 3
+map key 5 4
+map key 6 5
+map key 7 6
+map key 8 7
+map key 9 8
+map key 10 9
+map key 11 0
+map key 12 MINUS
+map key 13 EQUALS
+map key 16 Q
+map key 17 W
+map key 18 E
+map key 19 R
+map key 20 T
+map key 21 Z
+map key 22 U
+map key 23 I
+map key 24 O
+map key 25 P
+map key 26 LEFT_BRACKET
+map key 27 RIGHT_BRACKET
+map key 30 A
+map key 31 S
+map key 32 D
+map key 33 F
+map key 34 G
+map key 35 H
+map key 36 J
+map key 37 K
+map key 38 L
+map key 39 SEMICOLON
+map key 40 APOSTROPHE
+map key 41 GRAVE
+map key 43 BACKSLASH
+map key 44 Y
+map key 45 X
+map key 46 C
+map key 47 V
+map key 48 B
+map key 49 N
+map key 50 M
+map key 51 COMMA
+map key 52 PERIOD
+map key 53 SLASH
+map key 57 SPACE
+map key 86 PLUS
+map key 95 NUMPAD_COMMA
+
+key 1 {
+  label: '1'
+  base: '1'
+  shift: '\u0021'  # Exclamation mark (!)
+  capslock+shift: '\u0021'
+  ralt: '\u007e'  # Tilde (~)
+}
+
+key 2 {
+  label: '2'
+  base: '2'
+  shift: '\u0022'  # Quotation mark (")
+  capslock+shift: '\u0022'
+  ralt: '\u0040'  # At symbol (@)
+}
+
+key 3 {
+  label: '3'
+  base: '3'
+  shift: '\u00a7'  # Section sign (§)
+  capslock+shift: '\u00a7'
+  ralt: '\u0023'  # Hash (#)
+}
+
+key 4 {
+  label: '4'
+  base: '4'
+  shift: '\u0024'  # Dollar sign ($)
+  capslock+shift: '\u0024'
+  ralt: '\u00a4'  # Currency sign (¤)
+}
+
+key 5 {
+  label: '5'
+  base: '5'
+  shift: '\u0025'  # Percent sign (%)
+  capslock+shift: '\u0025'
+  ralt: '\u20ac'  # Euro sign (€)
+}
+
+key 6 {
+  label: '6'
+  base: '6'
+  shift: '\u002f'  # Slash (/)
+  capslock+shift: '\u002f'
+  ralt: '\u007c'  # Vertical bar (|)
+}
+
+key 7 {
+  label: '7'
+  base: '7'
+  shift: '\u003d'  # Equals sign (=)
+  capslock+shift: '\u003d'
+  ralt: '\u00b4'  # Acute accent (´)
+}
+
+key 8 {
+  label: '8'
+  base: '8'
+  shift: '\u0028'  # Left parenthesis (()
+  capslock+shift: '\u0028'
+  ralt: '\u0028'  # Left parenthesis (()
+}
+
+key 9 {
+  label: '9'
+  base: '9'
+  shift: '\u0029'  # Right parenthesis ())
+  capslock+shift: '\u0029'
+  ralt: '\u0029'  # Right parenthesis ())
+}
+
+key 0 {
+  label: '0'
+  base: '0'
+  shift: '\u00f6'  # O with diaeresis (ö)
+  capslock: '\u00d6'  # O with diaeresis (Ö)
+  capslock+shift: '\u00f6'
+  ralt: '\u005b'  # Left square bracket ([)
+}
+
+key MINUS {
+  label: '\u00fc'  # U with diaeresis (ü)
+  base: '\u00fc'
+  shift: '\u00dc'  # U with diaeresis (Ü)
+  capslock: '\u00dc'
+  capslock+shift: '\u00fc'
+  ralt: '\u005d'  # Right square bracket (])
+}
+
+key EQUALS {
+  label: '\u00f3'  # O with acute accent (ó)
+  base: '\u00f3'
+  shift: '\u00d3'  # O with acute accent (Ó)
+  capslock: '\u00d3'
+  capslock+shift: '\u00f3'
+  ralt: '\u005c'  # Backslash (\)
+}
+
+key Q {
+  label: 'q'
+  base: 'q'
+  shift: 'Q'
+  capslock: 'Q'
+  capslock+shift: 'q'
+}
+
+key W {
+  label: 'w'
+  base: 'w'
+  shift: 'W'
+  capslock: 'W'
+  capslock+shift: 'w'
+}
+
+key E {
+  label: 'e'
+  base: 'e'
+  shift: 'E'
+  capslock: 'E'
+  capslock+shift: 'e'
+  ralt: '\u00c9'  # E with acute accent (É)
+}
+
+key R {
+  label: 'r'
+  base: 'r'
+  shift: 'R'
+  capslock: 'R'
+  capslock+shift: 'r'
+}
+
+key T {
+  label: 't'
+  base: 't'
+  shift: 'T'
+  capslock: 'T'
+  capslock+shift: 't'
+}
+
+key Z {
+  label: 'z'
+  base: 'z'
+  shift: 'Z'
+  capslock: 'Z'
+  capslock+shift: 'z'
+}
+
+key U {
+  label: 'u'
+  base: 'u'
+  shift: 'U'
+  capslock: 'U'
+  capslock+shift: 'u'
+  ralt: '\u00da'  # U with acute accent (Ú)
+}
+
+key I {
+  label: 'i'
+  base: 'i'
+  shift: 'I'
+  capslock: 'I'
+  capslock+shift: 'i'
+  ralt: '\u00cd'  # I with acute accent (Í)
+}
+
+key O {
+  label: 'o'
+  base: 'o'
+  shift: 'O'
+  capslock: 'O'
+  capslock+shift: 'o'
+  ralt: '\u00d3'  # O with acute accent (Ó)
+}
+
+key P {
+  label: 'p'
+  base: 'p'
+  shift: 'P'
+  capslock: 'P'
+  capslock+shift: 'p'
+}
+
+key LEFT_BRACKET {
+  label: '\u0151'  # O with double acute accent (ő)
+  base: '\u0151'
+  shift: '\u0150'  # O with double acute accent (Ő)
+  capslock: '\u0150'
+  capslock+shift: '\u0151'
+  ralt: '\u00f7'  # Division sign (÷)
+}
+
+key RIGHT_BRACKET {
+  label: '\u00fa'  # U with acute accent (ú)
+  base: '\u00fa'
+  shift: '\u00da'  # U with acute accent (Ú)
+  capslock: '\u00da'
+  capslock+shift: '\u00fa'
+  ralt: '\u00d7'  # Multiplication sign (×)
+}
+
+key A {
+  label: 'a'
+  base: 'a'
+  shift: 'A'
+  capslock: 'A'
+  capslock+shift: 'a'
+  ralt: '\u00e1'  # A with acute accent (á)
+}
+
+key S {
+  label: 's'
+  base: 's'
+  shift: 'S'
+  capslock: 'S'
+  capslock+shift: 's'
+}
+
+key D {
+  label: 'd'
+  base: 'd'
+  shift: 'D'
+  capslock: 'D'
+  capslock+shift: 'd'
+}
+
+key F {
+  label: 'f'
+  base: 'f'
+  shift: 'F'
+  capslock: 'F'
+  capslock+shift: 'f'
+}
+
+key G {
+  label: 'g'
+  base: 'g'
+  shift: 'G'
+  capslock: 'G'
+  capslock+shift: 'g'
+}
+
+key H {
+  label: 'h'
+  base: 'h'
+  shift: 'H'
+  capslock: 'H'
+  capslock+shift: 'h'
+}
+
+key J {
+  label: 'j'
+  base: 'j'
+  shift: 'J'
+  capslock: 'J'
+  capslock+shift: 'j'
+}
+
+key K {
+  label: 'k'
+  base: 'k'
+  shift: 'K'
+  capslock: 'K'
+  capslock+shift: 'k'
+}
+
+key L {
+  label: 'l'
+  base: 'l'
+  shift: 'L'
+  capslock: 'L'
+  capslock+shift: 'l'
+}
+
+key SEMICOLON {
+  label: '\u00e9'  # E with acute accent (é)
+  base: '\u00e9'
+  shift: '\u00c9'  # E with acute accent (É)
+  capslock: '\u00c9'
+  capslock+shift: '\u00e9'
+}
+
+key APOSTROPHE {
+  label: '\u00e1'  # A with acute accent (á)
+  base: '\u00e1'
+  shift: '\u00c1'  # A with acute accent (Á)
+  capslock: '\u00c1'
+  capslock+shift: '\u00e1'
+}
+
+key GRAVE {
+  label: '\u00ed'  # I with acute accent (í)
+  base: '\u00ed'
+  shift: '\u00cd'  # I with acute accent (Í)
+  capslock: '\u00cd'
+  capslock+shift: '\u00ed'
+  ralt: '\u005e'  # Caret (^)
+}
+
+key BACKSLASH {
+  label: '\u0171'  # U with double acute accent (ű)
+  base: '\u0171'
+  shift: '\u0170'  # U with double acute accent (Ű)
+  capslock: '\u0170'
+  capslock+shift: '\u0171'
+  ralt: '\u005c'  # Backslash (\)
+}
+
+key Y {
+  label: 'y'
+  base: 'y'
+  shift: 'Y'
+  capslock: 'Y'
+  capslock+shift: 'y'
+}
+
+key X {
+  label: 'x'
+  base: 'x'
+  shift: 'X'
+  capslock: 'X'
+  capslock+shift: 'x'
+}
+
+key C {
+  label: 'c'
+  base: 'c'
+  shift: 'C'
+  capslock: 'C'
+  capslock+shift: 'c'
+}
+
+key V {
+  label: 'v'
+  base: 'v'
+  shift: 'V'
+  capslock: 'V'
+  capslock+shift: 'v'
+}
+
+key B {
+  label: 'b'
+  base: 'b'
+  shift: 'B'
+  capslock: 'B'
+  capslock+shift: 'b'
+}
+
+key N {
+  label: 'n'
+  base: 'n'
+  shift: 'N'
+  capslock: 'N'
+  capslock+shift: 'n'
+}
+
+key M {
+  label: 'm'
+  base: 'm'
+  shift: 'M'
+  capslock: 'M'
+  capslock+shift: 'm'
+}
+
+key COMMA {
+  label: '\u002c'  # Comma (,)
+  base: '\u002c'
+  shift: '\u003f'  # Question mark (?)
+  capslock+shift: '\u003f'
+}
+
+key PERIOD {
+  label: '\u002e'  # Period (.)
+  base: '\u002e'
+  shift: '\u003a'  # Colon (:)
+  capslock+shift: '\u003a'
+}
+
+key SLASH {
+  label: '\u002d'  # Hyphen (-)
+  base: '\u002d'
+  shift: '\u005f'  # Underscore (_)
+  capslock+shift: '\u005f'
+}
+
+key SPACE {
+  label: '\u0020'  # Space
+  base: '\u0020'
+  shift: '\u0020'
+  capslock+shift: '\u0020'
+}
+
+key PLUS {
+  label: '\u00fa'  # U with acute accent (ú)
+  base: '\u00fa'
+  shift: '\u00da'  # U with acute accent (Ú)
+  capslock: '\u00da'
+  capslock+shift: '\u00fa'
+  ralt: '\u003c'  # Less-than sign (<)
+}
+
+key NUMPAD_COMMA {
+  label: '\u002c'  # Comma (,)
+  base: '\u002c'
+  shift: '\u002c'
+  capslock+shift: '\u002c'
+}
